@@ -1,0 +1,384 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* Navbar start */
+
+.navbar {
+    position: fixed;
+    border-bottom: 0.1rem solid #3b82f6;
+
+}
+
+.nvbr-logo h2 {
+    color: gold;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.navbar .navbar-brand:hover {
+    color: gold;
+}
+
+.navbar .navbar-brand span {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .navbar-nav a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav a:hover {
+    color: gold;
+    transition: 0.7s;
+}
+
+
+/* Navbar end */
+
+/* hero start */
+.hero {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+
+    background: linear-gradient(135deg,
+            #2563eb,
+            #3b82f6,
+            #60a5fa);
+
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hero .container-fluid {
+    margin-bottom: 5rem;
+}
+
+/* bloob */
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(90px);
+    opacity: .5;
+}
+
+.blob1 {
+    width: 350px;
+    height: 350px;
+    background: #facc15;
+
+    top: -100px;
+    left: -100px;
+}
+
+.blob2 {
+    width: 300px;
+    height: 300px;
+    background: #a855f7;
+
+    bottom: -100px;
+    right: -100px;
+}
+
+.blob3 {
+    width: 250px;
+    height: 250px;
+    background: #38bdf8;
+
+    top: 50%;
+    left: 50%;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    font-weight: 600;
+    color: gold;
+}
+
+
+.hero h2 span {
+    color: gold;
+    font-weight: 500;
+}
+
+.hero .btn {
+    border-radius: 15px;
+}
+
+.hero .btn:hover {
+    transition: 0.7s;
+    transform: translate3d(0, -.500rem, 0);
+}
+
+.hero .trust-info {
+    font-size: 1.2rem;
+}
+
+.hero .trust-info .bi {
+    color: gold;
+    font-size: 1.5rem;
+}
+
+/* hero end */
+
+/* about start */
+.about {
+    background: #f8f9fa;
+
+}
+
+.about h2 {
+    font-weight: 600;
+}
+
+.about h2 span {
+    color: gold;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+
+.about h5 {
+    text-align: justify;
+    font-weight: 500;
+}
+
+.about img {
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* about end */
+
+/* program start */
+.program {
+    background-color: #eef5ff;
+}
+
+.program h2 span {
+    color: gold;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.program .card {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.program-card {
+    padding: 30px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.stimuli {
+    background: #fff8d6;
+}
+
+.english {
+    background: #e8f1ff;
+}
+
+.bacatulis {
+    background: #ffecec;
+}
+
+.mtk {
+    background: #e8f8ee;
+}
+
+.kalkulator {
+    background: #f2ebff;
+}
+
+.jagomtk {
+    background: #fff0dd;
+}
+
+.mapel {
+    background: #eafcff;
+}
+
+.program-card:hover {
+    transform: translateY(-8px);
+}
+
+.program .card .bi {
+    color: gold;
+}
+
+/* program end */
+
+/* testimoni start */
+
+#testimoni {
+       position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+
+    background: linear-gradient(135deg,
+            #2563eb,
+            #3b82f6,
+            #60a5fa);
+
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.testimoni h2 {
+    font-weight: 600;
+}
+
+.testimoni p {
+    font-size: 1.2rem;
+}
+
+.testi-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    height: 100%;
+    transition: .3s;
+    color: black;
+}
+
+.testi-card:hover {
+    transform: translateY(-8px);
+}
+
+.stars {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.testi-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -70px;
+    border: 5px solid white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* testimoni end */
+
+/* lokasi start */
+#lokasi {
+    background: #eef5ff;
+}
+
+#lokasi h2 {
+    font-weight: bold;
+    color: #1c3f94;
+}
+
+.lokasi-info p {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.lokasi-info i {
+    color: #f4b400;
+    margin-right: 10px;
+}
+
+.map-card {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* lokasi end */
+
+/* footer start */
+.footer {
+    color: white;
+}
+
+footer h2 {
+    color: gold;
+    font-weight: 600;
+}
+
+
+.footer h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: gold;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer h3 span {
+    color: gold;
+    font-family: sans-serif;
+    font-size: 2.3rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.footer-links a:hover {
+    color: #f4b400;
+}
+
+.footer i {
+    color: #f4b400;
+    margin-right: 8px;
+}
+
+.footer hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* footer end */
